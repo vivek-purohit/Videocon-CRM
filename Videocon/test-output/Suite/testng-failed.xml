@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="testing1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestCases.TC_08_Picklist_Process">
+        <methods>
+          <include name="ScanBarcode"/>
+          <include name="TestSetup"/>
+        </methods>
+      </class> <!-- com.TestCases.TC_08_Picklist_Process -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

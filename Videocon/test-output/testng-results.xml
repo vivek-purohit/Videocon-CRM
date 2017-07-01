@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="124376" started-at="2016-11-30T06:51:37Z" finished-at="2016-11-30T06:53:41Z">
+    <groups>
+      <group name="test">
+        <method signature="TC_03_AdmnX_Add_Product_Group.AddProductGroup()[pri:0, instance:com.TestCases.TC_03_AdmnX_Add_Product_Group@e45eb6]" name="AddProductGroup" class="com.TestCases.TC_03_AdmnX_Add_Product_Group"/>
+      </group> <!-- test -->
+    </groups>
+    <test name="Default test" duration-ms="124376" started-at="2016-11-30T06:51:37Z" finished-at="2016-11-30T06:53:41Z">
+      <class name="com.TestCases.TC_03_AdmnX_Add_Product_Group">
+        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.TestCases.TC_03_AdmnX_Add_Product_Group@e45eb6]" name="TestSetup" is-config="true" duration-ms="14472" started-at="2016-11-30T12:21:37Z" finished-at="2016-11-30T12:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method status="PASS" signature="AddProductGroup()[pri:0, instance:com.TestCases.TC_03_AdmnX_Add_Product_Group@e45eb6]" name="AddProductGroup" duration-ms="109847" started-at="2016-11-30T12:21:51Z" finished-at="2016-11-30T12:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductGroup -->
+      </class> <!-- com.TestCases.TC_03_AdmnX_Add_Product_Group -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

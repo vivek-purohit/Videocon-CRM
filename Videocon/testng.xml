@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+<groups>
+   <run>
+        <include name="testing2">
+        
+        </include>
+   </run>
+</groups>   
+   <classes>
+   <class name = "com.TestCases.TC_08_Picklist_Process"/>
+   </classes>
+
+
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
